@@ -1,0 +1,117 @@
+body{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    background: #fff;
+    color: #0d0c22;
+}
+
+.header{
+    padding-top: 1rem;
+}
+
+.dropdown-item{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn{
+    font-style: italic;
+}
+.btn:hover{
+    color: rgb(119, 118, 118);
+}
+.btn-warning{
+    border-color: #0d0c22;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.btn-warning:hover{
+    background-color: #46C2CB;
+}
+
+.home-container{
+    align-items: center;
+}
+
+.btn-started{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.nav-tabs{
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    width: 10%;
+}
+
+.dropdown-item{
+    font-weight: lighter;
+}
+
+.designs{
+    margin-top: 5% 10%;
+    padding: 5%;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.grid-container{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    gap: 5%;
+}
+
+.card{
+    border-style: hidden;
+}
+
+.card>img{
+    border-radius: 15px;
+}
+.card-body>img{
+    height: 30px;
+    width: 30px;
+    border-radius: 200px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.card-body>h6{
+    display: inline;
+}
+.bi-heart-fill{
+    margin-left: 10%;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+.bi-heart-fill:hover{
+    fill: purple;
+}
+.liked .bi-heart-fill{
+    fill: red;
+}
+.card-body>p{
+    display: inline;
+    font-size: small;
+}
+.bi1{
+    margin-left: 5%;
+}
+.nav .ms-auto {
+    margin-left: auto;
+    display: flex;
+    align-items:right;
+  }
+
+.ms-auto>li{
+    list-style-type: none;
+}
+  
